@@ -1,0 +1,9 @@
+<app-header [check]=check></app-header>
+<div class="check" *ngIf="check == 123 then id1"></div>
+<ng-template #id1>
+<app-main></app-main>
+<!-- <app-our-service></app-our-service> -->
+<!-- <app-booking></app-booking> -->
+<app-footer></app-footer>
+</ng-template>
+
